@@ -2,7 +2,7 @@ const button = document.getElementById("button");
 const name1Input = document.querySelector("#name1");
 
 name1Input.addEventListener("change", function () {
-  document.querySelector("p").style.background = "url(/images/love.jpg)";
+  document.querySelector("p").style.background = "url(./images/love.jpg)";
   document.querySelector("p").style.backgroundSize = "cover";
   document.querySelector("p").innerHTML = "";
 });
