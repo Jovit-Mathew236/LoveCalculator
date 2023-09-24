@@ -8,6 +8,10 @@ name1Input.addEventListener("change", function () {
 });
 
 button.addEventListener("click", function () {
+  if (name1Input.value.length === 0) {
+    alert("Please fill the names");
+    return;
+  }
   var loveScore = Math.random() * 100;
   loveScore = Math.floor(loveScore) + 1;
 
